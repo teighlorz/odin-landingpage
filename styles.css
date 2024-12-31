@@ -1,0 +1,106 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #1F2937;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+
+
+.heror{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 0px;
+
+}
+
+.box{
+    background-color: grey;
+    color: white;
+    padding: 50px 20px 50px 20px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.infoboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+    
+}
+
+.box1, .box2, .box3, .box4{
+    border: solid 5px #3882f6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.sec1, .sec2, .sec3, .sec4{
+    width: 200px;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7Eb;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+
+}
+
+.bigtext{
+    text-align: center;
+}
+
+.attribute{
+    display: flex;
+    align-self: flex-end;
+}
+
+.calltoaction {
+    display: flex;
+    padding: 5%;
+   justify-content: space-evenly;
+   color: white;
+}
+
+.banner {
+    display: flex;
+    background-color: #3882f6;
+    width: 120%;
+    border-radius: 15px;
+    padding: 2% 2%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 1% 0 ;
+}
